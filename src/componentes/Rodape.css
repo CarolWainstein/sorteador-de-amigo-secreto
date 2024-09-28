@@ -1,0 +1,56 @@
+.rodape {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    padding-left: 7em;
+    padding-right: 7em;
+}
+
+.botao {
+    background-color: #fe652b;
+    padding: 1em 2em;
+    display: flex;
+    border-radius: 30px;
+    border: 2px solid #000;
+    color: #fff;
+    font-size: 1em;
+    box-shadow: 2px 2px 0px 1px #000000;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #4B69FD;
+}
+
+.div-botao{
+    margin-top: 5em;
+}
+
+@media screen and (max-width: 819px) {
+    .rodape {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 16px;
+        margin-top: 0;
+    }
+
+    .botao{
+        margin-bottom: 3em;
+        flex-wrap: wrap;
+    }
+
+    .div-botao{
+        margin-top: 1em;
+    }
+
+    .imagem-sacolas {
+        width: 150px;
+    }
+
+    .icone-iniciar {
+        display: none;
+    }
+}

@@ -1,0 +1,37 @@
+.cabecalho {
+    margin-top: 5em;
+    text-align: center;
+}
+
+.participante{
+    margin-bottom: -2.45em;
+}
+
+.imagem-logo {
+    margin-bottom: 8em;
+}
+
+.imagem-logo-pequeno {
+    display: none;
+}
+
+@media screen and (max-width: 819px) {
+    .cabecalho {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .participante {
+        width: 350px;
+        margin-bottom: -1.60em;
+    }
+
+    .imagem-logo {
+        display: none;
+    }
+
+    .imagem-logo-pequeno {
+        display: block;
+    }
+}
